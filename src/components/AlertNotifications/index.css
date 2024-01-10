@@ -1,0 +1,101 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1140px;
+    width: 90%;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.notifying-container {
+  display: flex;
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.message-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    margin-top: 0px;
+  }
+}
+
+.message {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .message {
+    font-size: 22px;
+  }
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.warning {
+  color: #ffb800;
+}
